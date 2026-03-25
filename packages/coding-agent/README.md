@@ -15,7 +15,7 @@ OSS weekend runs Sunday, March 22, 2026 through Monday, March 30, 2026. New issu
 </p>
 <p align="center">
   <a href="https://discord.com/invite/3cU7Bz4UPx"><img alt="Discord" src="https://img.shields.io/badge/discord-community-5865F2?style=flat-square&logo=discord&logoColor=white" /></a>
-	<a href="https://www.npmjs.com/package/@deepflame-ai/pi-coding-agent"><img alt="npm" src="https://img.shields.io/npm/v/@deepflame-ai/pi-coding-agent?style=flat-square" /></a>
+	<a href="https://www.npmjs.com/package/@lunezhang/pi-coding-agent"><img alt="npm" src="https://img.shields.io/npm/v/@lunezhang/pi-coding-agent?style=flat-square" /></a>
 	<a href="https://github.com/LuneZhang/pi-mono-deepflame/actions/workflows/ci.yml"><img alt="Build status" src="https://img.shields.io/github/actions/workflow/status/LuneZhang/pi-mono-deepflame/ci.yml?style=flat-square&branch=main" /></a>
 </p>
 <p align="center">
@@ -59,7 +59,7 @@ Pi runs in four modes: interactive, print or JSON, RPC for process integration, 
 ## Quick Start
 
 ```bash
-npm install -g @deepflame-ai/pi-coding-agent
+npm install -g @lunezhang/pi-coding-agent
 ```
 
 Authenticate with an API key:
@@ -390,7 +390,7 @@ See [docs/packages.md](docs/packages.md).
 ### SDK
 
 ```typescript
-import { AuthStorage, createAgentSession, ModelRegistry, SessionManager } from "@deepflame-ai/pi-coding-agent";
+import { AuthStorage, createAgentSession, ModelRegistry, SessionManager } from "@lunezhang/pi-coding-agent";
 
 const { session } = await createAgentSession({
   sessionManager: SessionManager.inMemory(),

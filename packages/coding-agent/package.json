@@ -1,5 +1,5 @@
 {
-	"name": "@deepflame-ai/pi-coding-agent",
+	"name": "@lunezhang/pi-coding-agent",
 	"version": "0.1.0",
 	"description": "Coding agent CLI with read, bash, edit, write, question tools and session management",
 	"type": "module",
