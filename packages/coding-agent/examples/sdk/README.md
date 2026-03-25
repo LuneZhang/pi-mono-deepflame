@@ -40,7 +40,7 @@ import {
   codingTools,
   readOnlyTools,
   readTool, bashTool, editTool, writeTool,
-} from "@mariozechner/pi-coding-agent";
+} from "@lunezhang/pi-coding-agent";
 
 // Auth and models setup
 const authStorage = AuthStorage.create();
