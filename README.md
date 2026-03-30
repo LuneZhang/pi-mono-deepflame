@@ -43,6 +43,11 @@ Tools for building AI agents and managing LLM deployments.
 
 ## Install This Fork
 
+Requirements:
+
+- Node `>=20.6.0`
+- A modern npm release with workspace support (npm `>=7`; the npm bundled with current Node 20 is recommended)
+
 ```bash
 git clone https://github.com/LuneZhang/pi-mono-deepflame.git
 cd pi-mono-deepflame
